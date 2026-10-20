@@ -1,0 +1,8 @@
+{
+  "name": "game-events-platform",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "python -m venv .venv && .venv/bin/pip install -r requirements.txt",
+  "customizations": {
+    "vscode": { "extensions": ["innoverio.vscode-dbt-power-user", "ms-python.python"] }
+  }
+}
